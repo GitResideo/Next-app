@@ -1,0 +1,297 @@
+
+.snipcart *{
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    -webkit-font-smoothing:antialiased;
+    font-weight: normal;
+  }
+
+/* .snipcart-overwrite #snipcart-header #snipcart-title {
+    color: #50bcd0;
+    background: url('/resideo-block-logo-black.svg') no-repeat 0 center;
+    padding-left: 60px;
+} */
+  
+  .snipcart__box--badge, .snipcart__font--subtitle, .snipcart__font--xlarge
+  {
+    font-weight: bold;
+  }
+  
+  .snipcart-cart-header
+  {
+    
+    background-color: rgb(22, 106, 150);
+    color: #fff;
+  }
+
+  .snipcart-modal__close-title
+  {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .snipcart__icon--angled
+  {
+    filter: brightness(0) invert(1);
+  }
+
+ .snipcart__icon--blue-dark
+ {
+    filter: invert(42%) sepia(33%) saturate(1352%) hue-rotate(87deg) brightness(609%) contrast(609%);
+ }
+
+  .snipcart-item-quantity__label
+  {
+    font-weight: bold;
+  }
+  .snipcart-cart-header__count
+  {
+    font-weight: bold;
+    
+  }
+   
+  div.snipcart-layout__content--side p.snipcart-item-description
+  {
+      color: inherit;
+  }
+ 
+  div.snipcart-layout__content--side li.snipcart-item-line--cart-edit
+  {
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+ 
+  .snipcart-item-line__container
+  {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 0px;
+  }
+
+  .snipcart-summary-fees__title, .snipcart-summary-fees__amount
+  {
+    font-weight: bold;
+  }
+
+  .snipcart-cart-button
+  /* ,.snipcart__actions--link */
+  {
+    background-image:unset;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(22, 106, 150);
+    padding: 0.375rem 3rem;
+    line-height: 1.5;
+    border-radius: 0;
+    color: #fff;
+    background-clip: border-box;
+    background-origin: padding-box;
+    transition: width 2s;
+    height: 36px;
+  }
+  .snipcart__actions--link
+  {
+    font-weight: bold;
+    color: rgb(22, 106, 150);
+  }
+  /*  */
+  .snipcart-cart__secondary-header
+  {
+    background-color: rgb(22, 106, 150);
+    color: #fff;
+  }
+  
+  .snipcart-cart--edit .snipcart-cart__footer {
+    background-color: rgb(22, 106, 150);
+    color: #fff;
+  }
+  .snipcart-summary-fees
+  {
+      color: #fff;
+  }
+
+  .snipcart-cart-button:hover {
+    transition: color 0.5s  ease-in-out;
+  }
+  .snipcart-cart-button::after {
+    background:rgb(2, 76, 116);
+  }
+  
+  .snipcart-cart-button:not(.fx-dyna) {
+    position: relative;
+    z-index: 1;
+    transition-delay: 0.2s !important;
+    overflow: hidden;
+  }
+  
+  .snipcart-cart-button:not(.fx-dyna)::after,
+  .snipcart-cart-button:not(.fx-dyna)::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+  }
+  .snipcart-cart-button::after {
+    transition: width 0.5s ease-in-out;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+  }
+  
+  .snipcart-cart-button:hover::after,
+  .snipcart-cart-button.active::after {
+    transition: width 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  :checked + .snipcart-cart-button::after,
+.snipcart-cart-button.active::after {
+    width: 300%;
+  }
+
+
+  .snipcart__box--badge
+  {
+    /* background: linear-gradient(90deg ,#5082e4,#52bcf8); */
+    color: #fff;
+
+    background-image:unset;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(22, 106, 150);
+  }
+
+  .snipcart-cart__secondary-header-title
+  {
+      text-transform: capitalize;
+  }
+  .snipcart-cart-header__title
+  {
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  .snipcart-item-line__container
+  {
+      /* background-color: #EDEDED; */
+  }
+
+  /* .snipcart-form__label */
+  .snipcart-form__label--checkbox
+  {
+
+  }
+
+  
+
+  /* .snipcart__box, .snipcart-cart-summary, .snipcart-cart-summary-item__name, .snipcart-cart-header, .snipcart-checkout__header
+  , .snipcart-summary-fees__notice
+  {
+      font-weight: bold;
+      background-color: #EDEDED;
+  }
+
+  .snipcart-cart-summary__content
+  {
+    background-color: #EDEDED;
+  } */
+
+/* .snipcart-overwrite #snipcart-main-container a.snipcart-next, .snipcart-overwrite #snipcart-main-container a.snipcart-finalize, .snipcart-overwrite #snipcart-main-container a.snipcart-mainaction 
+{
+    background: rgb(170, 33, 33);
+    border: none;
+    text-shadow: none;
+}
+
+.snipcart-overwrite #snipcart-footer #snipcart-powered {
+    display: none;
+}
+
+.snipcart-overwrite #snipcart-footer {
+    display: none;
+}
+
+.snipcart-overwrite #snipcart-header #snipcart-title {
+    color: #50bcd0;
+    background: url('../images/snipcart-blue.png') no-repeat 0 center;
+    padding-left: 60px;
+} */
+
+/* 
+  #snipcart-main-container a.snipcart-next, #snipcart-main-container a.snipcart-finalize, #snipcart-main-container a.snipcart-mainaction {
+    background: rgb(135,219,87);
+    background: -moz-linear-gradient(top,  rgba(135,219,87,1) 1%, rgba(101,203,54,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(135,219,87,1)), color-stop(100%,rgba(101,203,54,1)));
+    background: -webkit-linear-gradient(top,  rgba(135,219,87,1) 1%,rgba(101,203,54,1) 100%);
+    background: -o-linear-gradient(top,  rgba(135,219,87,1) 1%,rgba(101,203,54,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(135,219,87,1) 1%,rgba(101,203,54,1) 100%); 
+    background: linear-gradient(to bottom,  rgba(135,219,87,1) 1%,rgba(101,203,54,1) 100%);
+  }
+
+  .snipcart-overwrite ul#snipcart-steps li span.snipcart-step-number {
+    font-family: Verdana, sans-serif;
+}
+
+.snipcart-overwrite .icon-Snipcart-6:before {
+    content: "1";
+}
+
+.snipcart-overwrite .icon-Snipcart-4:before {
+    content: "2";
+}
+
+.snipcart-overwrite .icon-Snipcart-3:before {
+    content: "3";
+}
+
+.snipcart-overwrite .icon-Snipcart-2:before {
+    content: "4";
+}
+.snipcart-overwrite .icon-Snipcart:before {
+    content: "5";
+}
+.snipcart-overwrite .icon-Snipcart-5:before {
+    content: "6";
+}
+
+.snipcart-overwrite .icon-Snipcart-7:before {
+    content: "X";
+}
+
+.snipcart-overwrite .snipcart-checkout-container {
+    padding: 0;
+}
+
+.snipcart-overwrite #snipcart-main-container {
+    max-width: none;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.snipcart-overwrite #snipcart-overlay  {
+    background: #fff;
+}
+
+.snipcart-overwrite #snipcart-main-container a#snipcart-close {
+    background: none;
+    text-indent: 0;
+    width: auto;
+    color: #50bcd0;
+    right: -13px;
+    display: block;
+    top: 6px;
+}
+
+.snipcart-overwrite #snipcart-close:after {
+    content: "Return to site \279C";
+    color: #fff;
+    position: relative;
+    left: -33px;
+}
+ */

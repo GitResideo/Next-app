@@ -1,0 +1,29 @@
+
+.carousel-item.active {
+    display: flex !important;
+  }
+  .carousel-item img {
+    width: 100%;
+  }
+  .carousel-caption {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+    background-color: #29d;
+    display: flex;
+    width: 30%;
+    text-align: center;
+    display: none;
+  }
+  
+  .carousel-indicators li
+  {
+      background-color: rgb(63, 60, 60);
+  }
+
+  

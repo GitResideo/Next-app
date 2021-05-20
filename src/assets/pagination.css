@@ -1,0 +1,27 @@
+.pagination {
+}
+
+.pagination li {
+  padding: 10 10;
+  margin-left: 10;
+  line-height: 15;
+  color: red;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1 solid #CCCCCC;
+
+}
+
+.pagination:hover {
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+  background-color: green;
+  border-color: #CCCCCC;
+}
+
+.pagination:focus {
+  z-index: 3;
+  outline: 1;
+  box-shadow: 1;
+}
